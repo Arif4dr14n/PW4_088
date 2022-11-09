@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'OldMan';
+    src: url(font/OldMan.ttf);
+}
+
+@font-face {
+    font-family: 'LTFunk';
+    src: url(font/LT\ Funk.otf);
+}
+
+body {
+    background-color: #333;
+    nav{
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        background-color: rgba(0,0,0,0.6);
+        color: #dcdcdd;
+        padding-right: 35px;
+        padding-left: 35px;
+        font-family: 'OldMan',sans-serif;
+        backdrop-filter: blur(8px);
+        a{
+            letter-spacing: 3px;
+        }
+        ul{
+            
+            list-style: none;
+            li{
+                padding-top: 15px;
+                display: inline-block;
+                a{
+                    margin-left: 40px;
+                }
+            }
+        }
+    }
+
+    section{
+        padding: 60px;
+        color: whitesmoke;
+    }
+    
+    .judul{
+        font-family: 'OldMan',sans-serif;
+    }
+
+    .sub-judul{
+        font-family: 'LTFunk',sans-serif;
+    }
+
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .paragraph{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .container{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+
+    .img{
+        width: 30%;
+        height: auto;
+    }
+
+    .image{
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .text{
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 100%;
+        height: auto;
+    }
+}

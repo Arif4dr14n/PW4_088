@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "OldMan";
+  src: url(font/OldMan.ttf);
+}
+@font-face {
+  font-family: "LTFunk";
+  src: url(font/LT\ Funk.otf);
+}
+body {
+  background-color: #333;
+}
+body nav {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #dcdcdd;
+  padding-right: 35px;
+  padding-left: 35px;
+  font-family: "OldMan", sans-serif;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+body nav a {
+  letter-spacing: 3px;
+}
+body nav ul {
+  list-style: none;
+}
+body nav ul li {
+  padding-top: 15px;
+  display: inline-block;
+}
+body nav ul li a {
+  margin-left: 40px;
+}
+body section {
+  padding: 60px;
+  color: whitesmoke;
+}
+body .judul {
+  font-family: "OldMan", sans-serif;
+}
+body .sub-judul {
+  font-family: "LTFunk", sans-serif;
+}
+body .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+body .paragraph {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+body .container {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+}
+body .img {
+  width: 30%;
+  height: auto;
+}
+body .image {
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+body .text {
+  margin-left: 20px;
+  margin-right: 0px;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main2.css.map */

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "OldMan";
+  src: url(font/OldMan.ttf);
+}
+body {
+  background: url(img/gambar2.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+body nav {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #dcdcdd;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: "OldMan", sans-serif;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+body nav a {
+  letter-spacing: 3px;
+}
+body nav ul {
+  list-style: none;
+}
+body nav ul li {
+  padding-top: 15px;
+  display: inline-block;
+}
+body nav ul li a {
+  margin-left: 40px;
+}
+body section div div a {
+  color: wheat;
+}
+body section div div a:hover {
+  color: #dc143d;
+}
+body .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+body .glass-box {
+  font-family: "OldMan", sans-serif;
+  padding: 43px;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 20px;
+}/*# sourceMappingURL=main.css.map */
