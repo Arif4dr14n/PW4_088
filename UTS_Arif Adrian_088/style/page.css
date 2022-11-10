@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Hamsley";
+  src: url(font/Hamsley\ Script.ttf);
+}
+@font-face {
+  font-family: "Kurale";
+  src: url(font/Kurale-Regular.ttf);
+}
+body {
+  background-color: #333;
+}
+body nav {
+  font-size: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #dcdcdd;
+  padding-right: 35px;
+  padding-left: 35px;
+  font-family: "Hamsley", sans-serif;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+body nav a {
+  letter-spacing: 3px;
+}
+body section {
+  padding: 60px;
+  color: whitesmoke;
+}
+body .judul {
+  font-family: "Kurale", sans-serif;
+}
+body .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+body .paragraph {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 1.4;
+}/*# sourceMappingURL=page.css.map */
